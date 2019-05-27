@@ -9,19 +9,19 @@
     <Waypoint name="Free turnpoint" id="0" comment="" altitude="-999.0">
       <Location longitude="7.6737575531" latitude="52.5158116073"/>
     </Waypoint>
-    <ObservationZone type="Keyhole"/>
+    <ObservationZone type="FAISector"/>
   </Point>
   <Point type="Turn">
     <Waypoint name="Free turnpoint" id="0" comment="" altitude="-999.0">
       <Location longitude="9.79883398259" latitude="53.1090111065"/>
     </Waypoint>
-    <ObservationZone type="Keyhole"/>
+    <ObservationZone type="FAISector"/>
   </Point>
   <Point type="Turn">
     <Waypoint name="Nienburg Holzbal" id="0" comment="EDXI 122.0" altitude="24.0">
       <Location longitude="9.1622222" latitude="52.7097222"/>
     </Waypoint>
-    <ObservationZone type="Keyhole"/>
+    <ObservationZone type="FAISector"/>
   </Point>
   <Point type="Finish">
     <Waypoint name="Achmer" id="0" comment="EDXA 123.05" altitude="53.0">
