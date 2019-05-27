@@ -1,1 +1,27 @@
-#
+<Task type="AAT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+  <Point type="Start">
+    <Waypoint name="Achmer" id="0" comment="EDXA 123.05" altitude="53.0">
+      <Location longitude="7.9133333" latitude="52.3772222"/>
+    </Waypoint>
+    <ObservationZone type="Line" length="40000.0"/>
+  </Point>
+  <Point type="Area">
+    <Waypoint name="Free turnpoint" id="0" comment="" altitude="-999.0">
+      <Location longitude="7.94751340099" latitude="52.6742294967"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="10000.0"/>
+  </Point>
+  <Point type="Area">
+    <Waypoint name="Free turnpoint" id="0" comment="" altitude="-999.0">
+      <Location longitude="10.0425975914" latitude="53.1039775229"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="30000.0"/>
+  </Point>
+  <Point type="Finish">
+    <Waypoint name="Achmer" id="0" comment="EDXA 123.05" altitude="53.0">
+      <Location longitude="7.9133333" latitude="52.3772222"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="3000.0"/>
+  </Point>
+</Task>
+
