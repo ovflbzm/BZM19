@@ -15,7 +15,7 @@
     <Waypoint name="Nienburg Holzbal" id="0" comment="EDXI 122.0" altitude="24.0">
       <Location longitude="9.1622222" latitude="52.7097222"/>
     </Waypoint>
-    <ObservationZone type="Keyhole"/>
+    <ObservationZone type="FAISector"/>
   </Point>
   <Point type="Finish">
     <Waypoint name="Achmer" id="0" comment="EDXA 123.05" altitude="53.0">
