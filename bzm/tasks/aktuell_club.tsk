@@ -1,21 +1,27 @@
-<Task type="RT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+<Task type="AAT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
   <Point type="Start">
     <Waypoint name="Achmer" id="0" comment="EDXA 123.05" altitude="53.0">
       <Location longitude="7.9133333" latitude="52.3772222"/>
     </Waypoint>
-    <ObservationZone type="Line" length="40000.0"/>
+    <ObservationZone type="Line" length="20000.0"/>
   </Point>
-  <Point type="Turn">
+  <Point type="Area">
     <Waypoint name="Free turnpoint" id="0" comment="" altitude="-999.0">
-      <Location longitude="8.04557609558" latitude="52.847787024"/>
+      <Location longitude="7.52974462509" latitude="52.5525276809"/>
     </Waypoint>
-    <ObservationZone type="keyhole"/>
+    <ObservationZone type="Cylinder" radius="15000.0"/>
   </Point>
-  <Point type="Turn">
-    <Waypoint name="Nienburg Holzbal" id="0" comment="EDXI 122.0" altitude="24.0">
-      <Location longitude="9.1622222" latitude="52.7097222"/>
+  <Point type="Area">
+    <Waypoint name="An Den Sieben Be" id="0" comment=" 123.5" altitude="135.0">
+      <Location longitude="9.8105556" latitude="52.0575"/>
     </Waypoint>
-    <ObservationZone type="keyhole"/>
+    <ObservationZone type="Cylinder" radius="25000.0"/>
+  </Point>
+  <Point type="Area">
+    <Waypoint name="Free turnpoint" id="0" comment="" altitude="-999.0">
+      <Location longitude="9.65147924423" latitude="51.6554872384"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="20000.0"/>
   </Point>
   <Point type="Finish">
     <Waypoint name="Achmer" id="0" comment="EDXA 123.05" altitude="53.0">
